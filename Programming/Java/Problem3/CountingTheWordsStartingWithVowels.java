@@ -22,3 +22,17 @@ public class CountingTheWordsStartingWithVowels {
         System.out.println("Number of Words starting with vowels=" + x);
     }
 }
+
+a = str(input("Enter string : "))
+
+b = a.split(" ")
+
+c=0
+
+for i in b:
+
+    if(i[0] in ('AEIOUaeiou')):
+
+        c=c+1
+
+print("Count of words starting with vowels : ",c) 
